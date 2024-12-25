@@ -54,23 +54,23 @@
 
 /* Customizing the images for each "pola" */
 .pola:nth-child(1) .picture {
-    background-image: url('/img/5.jpg'); /* Customize for the first image */
+    background-image: url('../img/5.jpg'); /* Customize for the first image */
 }
 
 .pola:nth-child(2) .picture {
-    background-image: url('/img/2.jpg'); /* Customize for the second image */
+    background-image: url('../img/2.jpg'); /* Customize for the second image */
 }
 
 .pola:nth-child(3) .picture {
-    background-image: url('/img/1.jpg'); /* Customize for the third image */
+    background-image: url('../img/1.jpg'); /* Customize for the third image */
 }
 
 .pola:nth-child(4) .picture {
-    background-image: url('/img/3.jpg'); /* Customize for the fourth image */
+    background-image: url('../img/3.jpg'); /* Customize for the fourth image */
 }
 
 .pola:nth-child(5) .picture {
-    background-image: url('/img/4.jpg'); /* Customize for the fifth image */
+    background-image: url('../img/4.jpg'); /* Customize for the fifth image */
 }
 
 /* Styling for the caption text */
