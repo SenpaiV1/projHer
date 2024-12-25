@@ -1,0 +1,44 @@
+div {
+    display: flex;
+    justify-content: center;
+    animation: transitionIn 0.75s;
+}
+
+ul {
+    margin: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+    font-weight: bold;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+}
+
+li:hover {
+    background-color: rgba(211, 196, 178, 0.815);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h6 {
+    font-size: 20px;
+}
+h6:hover {
+    background-color: rgba(211, 196, 178, 0.815);
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+    to {
+        opacity: 1;
+        transform: rotateX('0');
+    }
+}
